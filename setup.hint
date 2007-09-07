@@ -1,0 +1,4 @@
+category: X11
+requires: fontconfig mkfontdir mkfontscale
+sdesc: "Computer Modern TTF fonts"
+ldesc: "TeX Computer Modern TTF fonts, for MathML rendering"

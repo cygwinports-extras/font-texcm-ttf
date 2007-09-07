@@ -1,0 +1,45 @@
+font-texcm-ttf
+------------------------------------------
+TeX Computer Modern TTF fonts, for MathML rendering
+
+Canonical website:
+  http://www.mozilla.org/projects/mathml/fonts/
+
+Canonical download:
+  http://www.mozilla.org/projects/mathml/fonts/bakoma/texcm-ttf.zip
+
+-------------------------------------------
+
+Build instructions:
+  unpack font-texcm-ttf-20030828-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./font-texcm-ttf-20030828-X.cygport all
+
+This will create:
+  /usr/src/font-texcm-ttf-20030828-X-src.tar.bz2
+  /usr/src/font-texcm-ttf-20030828-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/font-texcm-ttf.sh
+  /usr/share/doc/Cygwin/font-texcm-ttf-20030828.README
+  /usr/share/doc/font-texcm-ttf-20030828/license.txt
+  /usr/share/fonts/TTF/cmex10.ttf
+  /usr/share/fonts/TTF/cmmi10.ttf
+  /usr/share/fonts/TTF/cmr10.ttf
+  /usr/share/fonts/TTF/cmsy10.ttf
+
+------------------
+
+Port Notes:
+
+----- version 20030828-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

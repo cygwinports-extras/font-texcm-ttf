@@ -1,0 +1,19 @@
+inherit font
+
+DESCRIPTION="Mozilla TeX Computer Modern fonts for MathML"
+HOMEPAGE="http://www.mozilla.org/projects/mathml/fonts/"
+SRC_URI="
+	http://www.mozilla.org/projects/mathml/fonts/bakoma/${PN#font-}.zip
+	http://www.mozilla.org/projects/mathml/fonts/bakoma/license.txt
+"
+SRC_DIR="${PN#font-}"
+
+src_compile() { :; }
+src_test() { :; }
+
+src_install() {
+	fontinto TTF
+	dofont ${S}/*.ttf
+
+	dodoc license.txt
+}
