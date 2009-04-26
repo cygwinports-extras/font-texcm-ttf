@@ -26,8 +26,7 @@ This will create:
 Files included in the binary package:
 
   /etc/postinstall/font-texcm-ttf.sh
-  /usr/share/doc/Cygwin/font-texcm-ttf-20030828.README
-  /usr/share/doc/font-texcm-ttf-20030828/license.txt
+  /usr/share/doc/font-texcm-ttf/license.txt
   /usr/share/fonts/TTF/cmex10.ttf
   /usr/share/fonts/TTF/cmmi10.ttf
   /usr/share/fonts/TTF/cmr10.ttf
@@ -37,8 +36,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 20030828-1 -----
-Initial release for Cygwin.
+----- version 20030828-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
